@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f4ef;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+p {
+    max-width: 760px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#my_dataviz {
+    position: relative;
+}
+
+svg {
+    background-color: #fffdf8;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.bubbles:hover {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    opacity: 0;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    pointer-events: none;
+    text-align: left;
+}
+
+.legend-text {
+    font-size: 14px;
+    fill: #333;
+}
+
+.byline {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 760px;
+    margin: 0 auto 20px auto;
+    line-height: 1.4;
+}
+
+.story-text {
+    max-width: 760px;
+    margin: 0 auto 24px auto;
+    line-height: 1.7;
+    font-size: 17px;
+    text-align: left;
+}
+
+.story-image {
+    width: 100%;
+    max-width: 850px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    margin: 20px auto 8px auto;
+}
+
+.photo-source {
+    max-width: 850px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.photo-source a {
+    color: #d97706;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.photo-source a:hover {
+    text-decoration: underline;
+}
+
+.story-card {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 24px 30px;
+    background-color: #fffdf8;
+    border-left: 6px solid #d97706;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.story-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.story-card p {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.references {
+    max-width: 850px;
+    margin: 35px auto 10px auto;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: left;
+}
+
+.references h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.references ul {
+    padding-left: 20px;
+}
+
+.references li {
+    margin-bottom: 8px;
+}
+
+.references a {
+    color: #d97706;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seattle Rent Bubble Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Seattle's Housing Costs Are Unevenly Distributed</h1>
+
+        <p class="byline">By Alejandra Chavarria</p>
+
+    <h2>A bubble chart view of 2025 apartment rent patterns across Seattle</h2>
+
+    <img class="story-image" src="seattle.jpg" alt="Seattle skyline">
+
+<p class="photo-source">
+    Image by Sebastian_127 from
+    <a href="https://pixabay.com/photos/seattle-skyline-space-needle-4939579/" target="_blank">
+        Pixabay
+    </a>.
+</p>
+
+     <section class="chart-intro">
+    <h3>How to read the chart</h3>
+    <p>
+        Bubble size represents median apartment rent per unit. Bubble color represents rent category:
+        green for low rent, yellow for medium rent, and red for high rent.
+    </p>
+</section>
+
+    <div id="my_dataviz"></div>
+
+    <section class="story-card">
+    <h3>What the bubbles show</h3>
+
+    <p>
+        Seattle's apartment rent does not rise evenly across the city. Each bubble represents
+        a community reporting area, with larger bubbles showing higher median apartment rent
+        per unit. The large red bubbles show that high-rent areas remain especially visible
+        in places such as Downtown, Queen Anne, Capitol Hill, and other central neighborhoods.
+    </p>
+     </section>
+
+</section>
+        
+    <section class="references">
+    <h3>References</h3>
+
+    <ul>
+        <li><a href="https://d3-graph-gallery.com/graph/bubble_basic.html" target="_blank">D3 Graph Gallery: Basic Bubble Plot</a></li>
+        <li><a href="https://d3-graph-gallery.com/graph/bubble_color.html" target="_blank">D3 Graph Gallery: Colored Bubble Plot</a></li>
+        <li><a href="https://d3-graph-gallery.com/graph/bubble_tooltip.html" target="_blank">D3 Graph Gallery: Bubble Chart with Tooltip</a></li>
+        <li><a href="https://d3js.org/d3-force/simulation" target="_blank">D3 Documentation: Force Simulation</a></li>
+        <li><a href="https://data.seattle.gov/dataset/Apartment-Market-Rent-Prices-by-Census-Tract/h27p-5k3i/about_data" target="_blank">Seattle Open Data: Apartment Market Rent Prices by Census Tract</a></li>
+    </ul>
+    </section>
+
+    </main>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
