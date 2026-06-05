@@ -55,10 +55,12 @@ d3.csv("rent_bubble_clean.csv").then(function(data) {
                 .attr("stroke-width", 3);
         })
         .on("mousemove", function(event) {
-            tooltip
-                .style("left", event.pageX + 15 + "px")
-                .style("top", event.pageY - 20 + "px");
-        })
+    const [x, y] = d3.pointer(event, document.querySelector("#my_dataviz"));
+
+    tooltip
+        .style("left", (x + 15) + "px")
+        .style("top", (y + 15) + "px");
+})
         .on("mouseleave", function() {
             tooltip.style("opacity", 0);
 
