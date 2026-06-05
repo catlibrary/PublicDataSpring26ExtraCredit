@@ -6,7 +6,7 @@ By: Alejandra Chavarria
 
 View the published website here:
 
-[Seattle's Housing Costs Are Unevenly Distributed]([(https://catlibrary.github.io/PublicDataSpring26ExtraCredit/)])
+[Seattle's Housing Costs Are Unevenly Distributed](https://catlibrary.github.io/PublicDataSpring26ExtraCredit/)
 
 ## Overview
 
