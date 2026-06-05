@@ -2,6 +2,12 @@
 
 By: Alejandra Chavarria
 
+## Live Visualization
+
+View the published website here:
+
+[Seattle's Housing Costs Are Unevenly Distributed]([(https://catlibrary.github.io/PublicDataSpring26ExtraCredit/)])
+
 ## Overview
 
 This project explores apartment rent patterns across Seattle using a bubble chart created with D3.js. Each bubble represents a Seattle community reporting area. Bubble size corresponds to the median apartment rent per unit, while bubble color indicates whether the area falls into a low, medium, or high rent category.
