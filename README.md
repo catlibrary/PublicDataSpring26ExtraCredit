@@ -1,6 +1,6 @@
 # Seattle's Housing Costs Are Unevenly Distributed
 
-Author: Alejandra Chavarria
+By: Alejandra Chavarria
 
 ## Overview
 
