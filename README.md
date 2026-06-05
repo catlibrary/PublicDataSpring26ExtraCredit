@@ -42,5 +42,3 @@ D3 Graph Gallery. "Bubble Chart with Tooltip." Accessed June 5, 2026. https://d3
 D3.js. "Force Simulations." Accessed June 5, 2026. https://d3js.org/d3-force/simulation.
 
 Seattle Open Data. "Apartment Market Rent Prices by Census Tract." Accessed June 5, 2026. https://data.seattle.gov/dataset/Apartment-Market-Rent-Prices-by-Census-Tract/h27p-5k3i/about_data.
-
-Sebastian_127. "Seattle Skyline Space Needle." Pixabay. Accessed June 5, 2026. https://pixabay.com/photos/seattle-skyline-space-needle-4939579/.
