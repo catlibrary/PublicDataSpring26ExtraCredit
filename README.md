@@ -30,6 +30,8 @@ The data used in this visualization comes from the Seattle Open Data Portal's Ap
 - CSS
 - JavaScript
 - D3.js Version 7
+- Python
+- Pandas
 
 ## References
 
